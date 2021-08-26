@@ -88,12 +88,12 @@ header .projects .top {
 }
 
 header .projects .img1 {
-    width: 24%;
-    display: inline-block;
+    width: 25%;
+    float: left;
+    box-sizing: inherit;
     position: relative;
-    margin: 20px 10px 5px 0px;
-    padding: 0;
-    /* margin-right: 10px; */
+    padding-right: 10px;
+    padding-top: 2%;
 }
 
 header .projects .img1 .imgh {
@@ -101,7 +101,7 @@ header .projects .img1 .imgh {
 }
 header .projects .img1 h3 {
     position: absolute;
-    top: 0;
+    top: 10%;
     left: 0;
 }
 
@@ -127,9 +127,9 @@ header .about p {
 }
 
 header .about .imgtpb {
-    width: 24%;
+    width: 25%;
     padding-right: 10px;
-    display: inline-block;
+    float: left;
     box-sizing: inherit;
 }
 header .about .imgtpb .imgteam {
@@ -195,7 +195,7 @@ header .contact form .btnsend:hover{
 }
 
 header .imgbottom {
-    padding: 20px;
+    padding-top: 10px;
     width: 100%;
 }
 
@@ -210,7 +210,9 @@ header .imgbottom .map {
 footer {
     background-color: black;
     text-align: center;
-    padding: 50px;
+    padding: 25px;
+    font-size: 17px;
+    font-weight: 400;
 }
 footer .aftr {
     color: white;

@@ -2,16 +2,205 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Segoe UI', arial, sans-serif;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+img {
+    border-style: none;
 }
 nav {
     background-color: #FFF;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px 0 #000000;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+nav .da {
+    margin: 0px 10px;
+
 }
 nav a {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 12px;
+    padding: 8px 16px;
     color: black;
+    margin: 7px 3px;
+}
+nav .da b {
+    font-size: 18px;
+    font-weight: bold;
+}
+nav .navaright {
+    float: right;
+}
+nav a:hover{
+    background-color: #ccc;
+}
+header {
+    margin: 10px;
+}
+header .imgtop {
+    position: relative;
+    margin-bottom: 50px;
+}
+header .imgtop .titleimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header .imgtop .titleimg h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 3px;
+    
+}
+header .imgtop .titleimg h1 .covertop {
+    background-color: black;
+    padding: 5px;
+    padding-left: 20px;
+    text-align: center;
+    opacity: 0.75;
+}
+header .imgtop .titleimg h1 .stext {
+    margin-left: 10px;
+    font-weight: 400;
+}
+header .projects {
+    padding: 20px;
+    width: 100%;
+}
+header .projects .top {
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+header .projects .img1 {
+    width: 24%;
+    display: inline-block;
+    position: relative;
+    margin: 20px 10px 5px 0px;
+    padding: 0;
+    /* margin-right: 10px; */
+}
+
+header .projects .img1 .imgh {
+    width: 100%;
+}
+header .projects .img1 h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .cover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+header .about {
+    padding: 20px;
+    width: 100%;
+}
+
+header .about .top {
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+header .about p {
+    padding: 10px 0px;
+    font-size: 17px;
+}
+
+header .about .imgtpb {
+    width: 24%;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: inherit;
+}
+header .about .imgtpb .imgteam {
+    width: 100%;
+}
+
+header .about .imgtpb .p1 {
+    opacity: 0.60;
+}
+
+header .about .imgtpb .p2 {
+    font-size: 17px;
+}
+
+header .about .imgtpb button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+header .about .imgtpb button:hover {
+    background-color: #ccc;
+}
+
+header .contact {
+    padding: 20px;
+    width: 100%;
+}
+
+header .contact .top {
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+header .contact p {
+    padding: 10px 0px;
+    font-size: 17px;
+}
+
+header .contact form #text {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #CCC;
+}
+header .contact form .btnsend {
+    padding: 7px 18px;
+    margin: 20px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+}
+
+header .contact form .btnsend:hover{
+    background-color: #CCC;
+    color: #000;
+}
+
+header .imgbottom {
+    padding: 20px;
+    width: 100%;
+}
+
+header .imgbottom .map {
+    width: 100%;
 }
 
 .clear {
@@ -23,7 +212,7 @@ footer {
     text-align: center;
     padding: 50px;
 }
-footer .divfooter,.aftr {
+footer .aftr {
     color: white;
     padding: 5px;
     

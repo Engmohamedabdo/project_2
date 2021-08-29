@@ -1,0 +1,23 @@
+@media  (max-width: 767px)  {
+nav {
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+nav .navaleft {
+    font-size: 30px;
+}
+nav .da .br {
+    font-size: 30px;
+}
+nav .navaright {
+    display: none;
+}
+header .imgtop1 {
+    max-width: 220%;
+}
+header .imgtop h1 {
+    /* left: 200%; */
+    width: 1624px;
+}
+}

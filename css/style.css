@@ -90,7 +90,6 @@ header .projects .top {
 header .projects .img1 {
     width: 25%;
     float: left;
-    box-sizing: inherit;
     position: relative;
     padding-right: 10px;
     padding-top: 2%;
@@ -130,7 +129,6 @@ header .about .imgtpb {
     width: 25%;
     padding-right: 10px;
     float: left;
-    box-sizing: inherit;
 }
 header .about .imgtpb .imgteam {
     width: 100%;
@@ -219,3 +217,4 @@ footer .aftr {
     padding: 5px;
     
 }
+
